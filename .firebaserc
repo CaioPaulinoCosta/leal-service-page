@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "leal-service-page-dev"
+    "default": "leal-service-page"
   },
   "targets": {},
   "etags": {}
