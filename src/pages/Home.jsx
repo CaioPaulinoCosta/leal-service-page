@@ -6,10 +6,11 @@ import Advantages from "../components/Advantages";
 import WorkWithUs from "../components/WorkWithUs";
 import Clients from "../components/Clients";
 import CTA from "../components/CTA";
+import Layout from "../components/Layout";
 
 const Home = () => {
   return (
-    <div>
+    <Layout title="Home">
       <HomeSection />
       <Hero />
       <About />
@@ -18,7 +19,7 @@ const Home = () => {
       <WorkWithUs />
       <Clients />
       <CTA />
-    </div>
+    </Layout>
   );
 };
 

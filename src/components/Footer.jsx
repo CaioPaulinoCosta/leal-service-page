@@ -44,7 +44,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <i className="fas fa-envelope text-secondary w-4"></i>
-                <span>lealiservice@hotmail.com</span>
+                <span>leallservice@hotmail.com</span>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <i className="fas fa-map-marker-alt text-secondary w-4"></i>
