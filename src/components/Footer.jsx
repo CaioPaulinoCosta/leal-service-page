@@ -36,11 +36,11 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-gray-300">
                 <i className="fas fa-phone text-secondary w-4"></i>
-                <span>(14) 3326-1899</span>
+                <span>(14) 3322-1783</span>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <i className="fas fa-mobile-alt text-secondary w-4"></i>
-                <span>(14) 99833-4166</span>
+                <span>(14) 99860-4140</span>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <i className="fas fa-envelope text-secondary w-4"></i>
