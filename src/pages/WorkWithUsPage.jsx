@@ -301,29 +301,26 @@ const WorkWithUsPage = () => {
         {/* Notification Toast */}
         {notification.show && (
           <div
-            className={`fixed top-24 right-6 z-50 transform transition-all duration-500 ${
-              notification.show
+            className={`fixed top-24 right-4 md:right-6 z-50 transform transition-all duration-500 ${notification.show
                 ? "translate-x-0 opacity-100"
-                : "translate-x-full opacity-0"
-            }`}
+                : "translate-x-[120%] opacity-0"
+              }`}
           >
             <div
-              className={`relative flex items-center p-4 rounded-2xl shadow-2xl min-w-80 max-w-md border-l-4 ${
-                notification.type === "success"
+              className={`relative flex items-center p-4 rounded-2xl shadow-2xl w-[calc(100vw-2rem)] md:w-auto md:min-w-80 max-w-md border-l-4 ${notification.type === "success"
                   ? "bg-green-50 border-green-500 text-green-800"
                   : notification.type === "warning"
-                  ? "bg-yellow-50 border-yellow-500 text-yellow-800"
-                  : "bg-red-50 border-red-500 text-red-800"
-              }`}
+                    ? "bg-yellow-50 border-yellow-500 text-yellow-800"
+                    : "bg-red-50 border-red-500 text-red-800"
+                }`}
             >
               <div
-                className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center ${
-                  notification.type === "success"
+                className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center ${notification.type === "success"
                     ? "bg-green-100"
                     : notification.type === "warning"
-                    ? "bg-yellow-100"
-                    : "bg-red-100"
-                }`}
+                      ? "bg-yellow-100"
+                      : "bg-red-100"
+                  }`}
               >
                 {notification.type === "success" ? (
                   <i className="fas fa-check text-green-600"></i>
@@ -338,8 +335,8 @@ const WorkWithUsPage = () => {
                   {notification.type === "success"
                     ? "Sucesso!"
                     : notification.type === "warning"
-                    ? "Atenção!"
-                    : "Erro!"}
+                      ? "Atenção!"
+                      : "Erro!"}
                 </p>
                 <p className="text-sm mt-1">{notification.message}</p>
               </div>
@@ -595,11 +592,10 @@ const WorkWithUsPage = () => {
                   <button
                     type="submit"
                     disabled={isLoading}
-                    className={`w-full bg-gradient-to-r from-secondary to-yellow-400 text-primary font-bold py-4 px-8 rounded-full transition-all duration-300 flex items-center justify-center gap-3 ${
-                      isLoading
+                    className={`w-full bg-gradient-to-r from-secondary to-yellow-400 text-primary font-bold py-4 px-8 rounded-full transition-all duration-300 flex items-center justify-center gap-3 ${isLoading
                         ? "opacity-50 cursor-not-allowed"
                         : "hover:shadow-lg hover:-translate-y-1"
-                    }`}
+                      }`}
                   >
                     {isLoading ? (
                       <>

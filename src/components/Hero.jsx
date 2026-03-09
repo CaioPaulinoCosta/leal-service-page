@@ -50,19 +50,18 @@ const Hero = () => {
         {slides.map((slide, index) => (
           <div
             key={index}
-            className={`absolute inset-0 transition-opacity duration-1000 ${
-              index === currentSlide ? "opacity-100" : "opacity-0"
-            }`}
+            className={`absolute inset-0 transition-opacity duration-1000 ${index === currentSlide ? "opacity-100" : "opacity-0"
+              }`}
             style={{
               background: `linear-gradient(rgba(0, 23, 52, 0.7), rgba(0, 23, 52, 0.7)), url('${slide.background}') center/cover`,
             }}
           >
             <div className="flex items-center justify-center h-full text-center animate-fadeInUp">
               <div className="max-w-4xl px-4">
-                <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-shadow">
+                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-shadow">
                   {slide.title}
                 </h2>
-                <p className="text-xl md:text-2xl opacity-90 leading-relaxed text-shadow">
+                <p className="text-lg sm:text-xl md:text-2xl opacity-90 leading-relaxed text-shadow">
                   {slide.subtitle}
                 </p>
               </div>
@@ -92,11 +91,10 @@ const Hero = () => {
         {slides.map((_, index) => (
           <button
             key={index}
-            className={`w-3 h-3 rounded-full transition-all duration-300 ${
-              index === currentSlide
+            className={`w-3 h-3 rounded-full transition-all duration-300 ${index === currentSlide
                 ? "bg-secondary scale-125 border-2 border-white"
                 : "bg-white/40"
-            }`}
+              }`}
             onClick={() => setCurrentSlide(index)}
             aria-label={`Ir para slide ${index + 1}`}
           />

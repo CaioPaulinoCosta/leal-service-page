@@ -2,7 +2,7 @@ const HomeSection = () => {
   return (
     <section className="min-h-screen grid grid-cols-1 lg:grid-cols-2 relative overflow-hidden">
       {/* Conteúdo do lado esquerdo */}
-      <div className="lg:col-span-1 flex items-center justify-center p-8 lg:p-20 bg-gradient-to-br from-primary to-[#00264d] relative z-10">
+      <div className="lg:col-span-1 flex items-center justify-center px-8 pb-8 pt-32 lg:px-20 lg:pb-20 lg:pt-40 bg-gradient-to-br from-primary to-[#00264d] relative z-10">
         <div className="max-w-2xl w-full">
           {/* Badge de experiência */}
           <div className="inline-block bg-secondary text-primary px-6 py-3 rounded-full text-sm font-bold uppercase tracking-wide mb-8 shadow-lg shadow-yellow-500/30">
@@ -10,7 +10,7 @@ const HomeSection = () => {
           </div>
 
           {/* Título principal */}
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight">
             Excelência em Facilities e Serviços Terceirizados
           </h1>
 

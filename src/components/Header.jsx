@@ -32,18 +32,18 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div className="flex items-center gap-4">
-            <a href="/" className="flex items-center gap-4 no-underline">
+          <div className="flex items-center gap-2 md:gap-4">
+            <a href="/" className="flex items-center gap-2 md:gap-4 no-underline flex-shrink">
               <img
                 src="https://res.cloudinary.com/dxvwk3bhs/image/upload/v1761568673/leal_logo_escudo_ypirta.png"
                 alt="leal-logo"
-                className="h-20 flex-shrink-0"
+                className="h-12 sm:h-16 md:h-20 w-auto flex-shrink-0 object-contain"
               />
               <div className="flex flex-col">
-                <h1 className="text-2xl font-bold text-primary m-0 leading-tight">
+                <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-primary m-0 leading-tight whitespace-nowrap">
                   LEAL SERVICE
                 </h1>
-                <span className="text-secondary font-semibold text-sm">
+                <span className="text-secondary font-semibold text-xs md:text-sm">
                   FACILITIES
                 </span>
               </div>
