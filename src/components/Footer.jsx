@@ -46,9 +46,9 @@ const Footer = () => {
                 <i className="fas fa-envelope text-secondary w-4"></i>
                 <span>leallservice@hotmail.com</span>
               </div>
-              <div className="flex items-center gap-3 text-gray-300">
-                <i className="fas fa-map-marker-alt text-secondary w-4"></i>
-                <span>Jardim Paulista - Ourinhos/SP</span>
+              <div className="flex items-start gap-3 text-gray-300">
+                <i className="fas fa-map-marker-alt text-secondary w-4 mt-1"></i>
+                <span>R. PARANÁ - 526, SALA 02 - CENTRO<br/>CEP: 19900-020 - Ourinhos - SP</span>
               </div>
             </div>
           </div>

@@ -21,10 +21,6 @@ const Clients = () => {
       logo: "https://res.cloudinary.com/dxvwk3bhs/image/upload/v1761568693/Moinho_Nacional_ntspfx.png",
     },
     {
-      name: "PREFEITURA_OURINHOS",
-      logo: "https://res.cloudinary.com/dxvwk3bhs/image/upload/v1761568694/Prefeitura_Ourinhos_ucfzbi.png",
-    },
-    {
       name: "PREFEITURA_PIRAJU",
       logo: "https://res.cloudinary.com/dxvwk3bhs/image/upload/v1761568694/Prefeitura_Piraju_i7qmvf.png",
     },
@@ -35,6 +31,62 @@ const Clients = () => {
     {
       name: "MARVI",
       logo: "https://res.cloudinary.com/dxvwk3bhs/image/upload/v1761568692/Marvi_u2pkk9.png",
+    },
+    {
+      name: "Dalçoquio",
+      logo: "https://i.imgur.com/C9ZIKsR.png",
+    },
+    {
+      name: "Construlopes & Gimenez",
+      logo: "https://i.imgur.com/o8oTiO6.png",
+    },
+    {
+      name: "RNI",
+      logo: "https://i.imgur.com/Umgmaso.png",
+    },
+    {
+      name: "Construcasa Bordignon",
+      logo: "https://i.imgur.com/QJo5sdL.png",
+    },
+    {
+      name: "Thai Toyota",
+      logo: "https://i.imgur.com/56FPLne.png",
+    },
+    {
+      name: "CIEE",
+      logo: "https://i.imgur.com/kTXlbxD.png",
+    },
+    {
+      name: "Randon Magnetic",
+      logo: "https://i.imgur.com/rnXA4hL.png",
+    },
+    {
+      name: "Ford Iguaçu Caminhões",
+      logo: "https://i.imgur.com/nkxOptc.png",
+    },
+    {
+      name: "Prosegur",
+      logo: "https://i.imgur.com/XtDze0I.png",
+    },
+    {
+      name: "Ourimadeiras",
+      logo: "https://i.imgur.com/6voOxFE.png",
+    },
+    {
+      name: "Coc",
+      logo: "https://i.imgur.com/PKNkVnR.png",
+    },
+    {
+      name: "Presermed",
+      logo: "https://i.imgur.com/hRClx5A.png",
+    },
+    {
+      name: "Eurochem",
+      logo: "https://i.imgur.com/YoHCtXV.png",
+    },
+    {
+      name: "Meta Saúde Ocupacional",
+      logo: "https://i.imgur.com/CCbvlxs.png",
     },
   ];
 
@@ -63,7 +115,7 @@ const Clients = () => {
               <img
                 src={client.logo}
                 alt={client.name}
-                className="max-w-full max-h-16 w-auto h-auto transition-all duration-300 grayscale group-hover:grayscale-0 group-hover:scale-110"
+                className={`max-w-full w-auto h-auto transition-all duration-300 grayscale group-hover:grayscale-0 group-hover:scale-110 ${index <= 7 ? 'max-h-10' : 'max-h-16'}`}
                 loading="lazy"
               />
             </div>

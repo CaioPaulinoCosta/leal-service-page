@@ -371,8 +371,8 @@ const ContactPage = () => {
                         Endereço
                       </h4>
                       <div className="space-y-1 text-gray font-medium">
-                        <div>Jardim Paulista</div>
-                        <div>CEP: 19907-080</div>
+                        <div>R. PARANÁ - 526, SALA 02 - CENTRO</div>
+                        <div>CEP: 19900-020</div>
                         <div>Ourinhos - SP</div>
                       </div>
                     </div>
